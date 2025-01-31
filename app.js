@@ -9,7 +9,6 @@ function agregarAmigo() {
     if (nombre !== "" && amigos.length < 5) {
         amigos.push(nombre);
         input.value = ""; // Limpiar la caja de texto
-        console.log(amigos);
         mostrarLista();
     } else {
         alert("Debes ingresar un nombre válido y solo puedes agregar hasta 5 amigos.");
